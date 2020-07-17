@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="scoring.css">
+    <title>DIVE INTO SAMPLE JavaScript</title>
+  </head>
+  <body>
+    <div class="container">
+      <br><br>
+      <p>Name: Test Taro</p>
+      <p>Japanese:<input type="number" id="national_language" value=0></p>
+      <p>English:<input type="number" id="english" value=0></p>
+      <p>Math:<input type="number" id="mathematics" value=0></p>
+      <p>Science:<input type="number" id="science" value=0></p>
+      <p>Society:<input type="number" id="society" value=0></p>
+      <br><br>
+      <p>Total Points:<label id="sum_indicate"></label></p>
+      <br><br>
+      <p>Avg.points:<label id="average_indicate"></label></p>
+      <br><br>
+      <p><label class="btn btn-primary" id="btn-evaluation">rank</label> ： <label id="evaluation"></label></p>
+      <br><br>
+      <p><label class="btn btn-success" id="btn-judge">judgment</label> ： <label id="judge"></label></p>
+      <br><br>
+      <p><label class="btn btn-warning" id="btn-declaration">Final Judge.</label> ： <label id="declaration"></label></p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="scoring.js"></script>
+  </body>
+</html>
+<!-- ここに書かれているhtmlの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合は、自分の好きに実装して構わない。課題要件を満たし、コードの品質が一定の水準にあると判定されればどのような実装でも合格になる。 -->
